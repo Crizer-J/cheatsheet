@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>cheatsheet</title>
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Dirt&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <h1>Position and Property Values</h1>
+
+    <!-- Table 1, Position Values  -->
+    <h2>Position Values</h2>
+
+    <table>
+      <tr>
+        <th>Value</th>
+        <th>Example Code</th>
+        <th>Meaning</th>
+      </tr>
+      <tr>
+        <th class="values">static</th>
+        <td class="code">navbar { postion : static; }</td>
+        <td class="meaning">Position of the element is left in the normal flow of the document.</td>
+      </tr>
+      <tr>
+        <th class="values">relative</th>
+        <td class="code">navbar { postion : relative; }</td>
+        <td class="meaning">Same as static until offset is established. The offset properties can be used to determine the actual position of the element relative to its original position.</td>
+      </tr>
+      <tr>
+        <th class="values">absolute</th>
+        <td class="code">navbar { postion : absolute; }</td>
+        <td class="meaning">Enables an element to ignore sibling elements and instead be positioned relative to its closest parent element that is positioned with relative or absolute.  Top, left, bottom and right, an element can be positioned anywhere as expected.</td>
+      </tr>
+      <tr>
+        <th class="values">fixed</th>
+        <td class="code">navbar { postion : fixed; }</td>
+        <td class="meaning">The fixed element stays the same regardless of scrolling.</td>
+      </tr>
+    </table>
+
+    <!-- Table 2, Display Values  -->
+    <h2>Display Values</h2>
+
+    <table>
+      <tr>
+        <th>Value</th>
+        <th>Example Code</th>
+        <th>Meaning</th>
+      </tr>
+      <tr>
+        <th class="values">block</th>
+        <td class="code">.container1 { display: block; }</td>
+        <td class="meaning">Take up the entire width of their container. Height and Width can be manually adjusted.</td>
+      </tr>
+      <tr>
+        <th class="values">inline</th>
+        <td class="code">.container1 { display: inline; }</td>
+        <td class="meaning">Take up as little space as possible. Can NOT have their height and width manually adjusted.</td>
+      </tr>
+      <tr>
+        <th class="values">inline-block</th>
+        <td class="code">.container1 { display: inline-block; }</td>
+        <td class="meaning">Elements can appear next to each other. Can have their height and width manually adjusted.</td>
+      </tr>
+    </table>
+    
+
+    <!-- Possible examples of the table properties in action. -->
+
+
+
+  </body>
+</html>
