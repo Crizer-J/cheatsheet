@@ -1,0 +1,64 @@
+@import {
+  url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+}
+
+/* CSS rules to specify families
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Rubik Dirt', cursive; */
+
+body {
+background-color: rgb(226, 247, 255);
+}
+
+table {
+  background-color: rgb(239, 239, 239);
+  border: solid black;
+  border-radius: 5px;
+  border-width: 1px;
+  margin: 5px 50px 50px;
+}
+
+h1 {
+  color: black;
+  font-family: 'Bebas Neue';
+  text-align: center;
+}
+
+h2 {
+  color: rgb(129, 129, 129);
+  font-family: 'Rubik Dirt';
+  text-align: center;
+}
+
+th {
+ color: black;
+ text-align: center;
+}
+
+th, td {
+  border: solid black;
+  border-width: 1px;
+  padding: 0.25em 1em;
+}
+
+.values {
+  width: 100px;
+  height: 50px;
+  color: black;
+  font-style: italic;
+}
+
+.code {
+  width: 250px;
+  height: 50px;
+  color: purple;
+  text-align: center;
+}
+
+.meaning {
+  width: 700px;
+  height: 50px;
+  color: green;
+  text-align: left;
+}
